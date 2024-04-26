@@ -1,0 +1,12 @@
+body
+{
+    margin: 0;
+}
+#topbar
+{
+    top: 0;
+    width: 100%;
+    height: 32px;
+    position: fixed;
+    background-color: black;
+}
