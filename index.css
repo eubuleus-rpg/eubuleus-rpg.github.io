@@ -1,12 +1,37 @@
-body
-{
+@font-face { font-family: Stras Futur; src: url('StrasFutur.ttf'); }
+@font-face { font-family: Kernel Panic; src: url('KernelPanic.ttf'); }
+body {
     margin: 0;
+    height: 100%;
+    font-family: Stras Futur;
 }
-#topbar
-{
+#topbar {
     top: 0;
     width: 100%;
-    height: 32px;
+    height: 50px;
+    display: flex;
     position: fixed;
-    background: black;
+    background: transparent;
+    align-content: center;
+    justify-content: center;
+}
+#topTable {
+    width: 75%;
+    justify-items: center;  
+    display:inline-table;
+    color: white;
+}
+td {
+
+   text-align: center ;
+}
+#Title {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+    background-image: linear-gradient(black,blueviolet);
 }

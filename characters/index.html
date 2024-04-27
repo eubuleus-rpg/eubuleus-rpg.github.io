@@ -3,9 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Characters</title>
+    <link rel="shortcut icon" href="/favicon.png" type="image/png">
 </head>
 <body>
-    
+    <div id="topbar">
+        <table id="topTable">
+            <tr>
+                <td> <a href="/">Home</a></td>
+            </tr>
+            <table id="topTable">
+                <tr>
+                    <td>
+                        <td>Characters</td>   
+                    </td>
+                </tr>
+            </table>
+            <table id="topTable">
+                <tr>
+                    <td>
+                        <td><a href="/schedule/">Schedule</a></td>   
+                    </td>
+                </tr>
+            </table>
+        </table>
+    </div>
+    <div style="height: calc(100vh);">
+        <table id="Title">
+            <tr>
+                <td>
+                    <div>Meet the</div>
+                </td>
+            </tr>
+            <tr>
+                <td>Characters</td>
+            </tr>
+        </table>
+        <div style="text-align: center; background-color: blueviolet;">
+            <div class="tab">
+            <button class="tablinks" onclick="openCharacter(event, 'Storyteller')">Storyteller</button>
+            <button class="tablinks" onclick="openCharacter(event, 'Felter Woods')">Felter Woods</button>
+            <button class="tablinks" onclick="openCharacter(event, 'Joan Lindsey')">Joan Lindsey</button>
+            <button class="tablinks" onclick="openCharacter(event, 'Dante McMoon')">Dante McMoon</button>
+            <button class="tablinks" onclick="openCharacter(event, 'Harold')">Harold</button>
+            <button class="tablinks" onclick="openCharacter(event, 'Gray')">Gray</button>
+            <button class="tablinks" onclick="openCharacter(event, 'Cheneg Zolreng')">Cheneg Zolreng</button>
+            
+          </div>
+          
+          <div id="Storyteller" class="tabcontent" style="display: block;">
+            todo
+          </div>
+          
+          <div id="Felter Woods" class="tabcontent">
+            todo1
+          </div>
+          
+          <div id="Joan Lindsey" class="tabcontent">
+            todo2
+          </div>
+          <div id="Dante McMoon" class="tabcontent">
+            todo3
+          </div>
+          <div id="Harold" class="tabcontent">
+            todo4
+          </div>
+          <div id="Gray" class="tabcontent">
+            todo5
+          </div> <div id="Cheneg Zolreng" class="tabcontent">
+            todo6
+          </div></div>
+         
+        </div>
+    <script src="index.js"></script>
+    <script src="//cdn.jsdelivr.net/npm/eruda"></script>
+    <link rel="stylesheet" href="/index.css">
+    <link rel="stylesheet" href="index.css">
+    <script>eruda.init();</script>
 </body>
 </html>
